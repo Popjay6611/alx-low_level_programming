@@ -5,7 +5,7 @@ int main()
 {
 	char myPuzzel[] = "Programming is like building a multilingual puzzle";
 	
-		puts(myPuzzel);
+		puts(myPuzzel"\");
 
 		return 0;
 
