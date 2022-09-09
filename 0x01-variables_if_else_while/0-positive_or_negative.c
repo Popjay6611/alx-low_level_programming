@@ -4,7 +4,7 @@
 /**
  * main- assign a randon number to io int n
  * every time it execute and print it
- * Result: Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
