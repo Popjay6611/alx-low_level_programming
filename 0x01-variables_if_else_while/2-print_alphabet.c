@@ -8,11 +8,11 @@ int main(void)
 {
 	char al;
 
-	if(a l= "a"; al <= "z"; al++);
+	if(al= 'a'; al <= 'z'; al++);
 	{
 	putchar(al);
 	}
-	putchar("\n"};
+	putchar('\n'};
 			return (0);
-			}
+}
 
