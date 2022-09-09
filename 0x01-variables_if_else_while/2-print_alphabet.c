@@ -2,18 +2,18 @@
 
 /**
  * main - programe tha print alphabets in lower case
- * result retun (sucess)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	char al;
+char al;
 
-	for (al= 'a'; al <= 'z'; al++);
-	{
-	putchar(al);
-	}
-	putchar('\n'};
-			return (0);
+for (al= 'a'; al <= 'z'; al++);
+{
+putchar(al);
+}
+putchar('\n'};
+return (0);
 }
 
