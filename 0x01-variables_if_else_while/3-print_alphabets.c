@@ -9,16 +9,16 @@ int main(void)
 	char lw;
 	char pr;
 
-	if(lw = "a"; lw <= "z"; lw++);
+	if(lw = 'a'; lw <= 'z'; lw++);
 	{
 		putchar(lw);
 	}
 
-	else if(pr = "A"; pr <= "Z"; pr++);
+	else if(pr = 'A'; pr <= 'Z'; pr++);
 	{
 		putchar(pr);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
