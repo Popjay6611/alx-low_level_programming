@@ -1,4 +1,5 @@
-#incude <stdio.h>
+#include <stdio.h>
+
 /**
  * main - programe tha print alphabets in lower case
  * result retun (sucess)
@@ -8,7 +9,7 @@ int main(void)
 {
 	char al;
 
-	if(al= 'a'; al <= 'z'; al++);
+	for(al= 'a'; al <= 'z'; al++);
 	{
 	putchar(al);
 	}
