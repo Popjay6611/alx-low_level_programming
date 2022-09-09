@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-
-
 /**
 *main -> assign a random number to the variable n each time it is executed
-*and print the last digit of the number stored in the variable  *Return: Always 0 (Success)
+*and print the last digit of the number stored in the variable  
+*Return: Always 0 (Success)
 */
 
 int main(void)
@@ -20,6 +19,6 @@ putchar(44);
 putchar(32);
 }
 }
-putchar('\n'); /* this is an ascii code for new line*/
+putchar('\n'); 
 return (0);
 }
