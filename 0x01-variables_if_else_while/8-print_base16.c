@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-
-
 /**
- *main -> assign a random number to the variable n each time it is execute
- *and print the last digit of the number stored in the variable n
- *Return: Always 0 (Success)
- */
+*main -> that prints all the numbers of base 16 in lowercase
+*Return: Always 0 (Success)
+*/
 
 int main(void)
 
