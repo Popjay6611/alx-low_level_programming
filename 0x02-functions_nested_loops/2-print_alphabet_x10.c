@@ -15,10 +15,12 @@ char c;
 while (c = "a", c <= "z")
 {
 	_putchar(c);
+	c++;
 }
 _putchar('\n');
+	
 }
-
+i++;
 }
 
 
