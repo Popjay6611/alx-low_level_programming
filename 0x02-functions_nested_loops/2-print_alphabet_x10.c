@@ -11,8 +11,8 @@ char i = 10;
 
 while (i <= 9)
 {
-char c;
-while (c = "a", c <= "z")
+char c = "a";
+while (c <= "z")
 {
 	_putchar(c);
 	c++;
