@@ -4,7 +4,6 @@
 * main-Write a program that prints _putchar
 * Return: always 0 (success)
 */ 
-
 int main(void)
 {
 	char strg[] = "_putchar";
