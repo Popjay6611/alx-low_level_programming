@@ -1,26 +1,30 @@
 #include "main.h"
 
 /**
- * main-Write a function that prints the sign of a number
- * Return: Always 0 (success)
+ * print_sign - check numers
+ * @n : number to check
+ * Return:0 or 1
  */
 
-int print_sign( int n)
-
+int print_sign(int n)
 {
+int test;
+
 if (n > 0)
 {
-	_putchar(+);
-		return 1;
+	test = 1;
+	_putchar('+');
 }
-else if (n < 0)
+else if (n == 0)
 {
-	_putchar(-);
-	return -1;
+	test = 0;
+	_putchar('0');
 }
-else 
+else
 {
-	_putchar(0);
-	return 0;
+	test = -1;
+	_putchar('-');
 }
+
+return (test);
 }
