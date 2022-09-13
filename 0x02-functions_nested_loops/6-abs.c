@@ -1,16 +1,14 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *main- compute the absolute value of an integer
- *Return: Always 0 (success)
+ * _abs - return abs value
+ * @n : number to check
+ * Return:0 or 1
  */
 
-int _abs(int y)
+int _abs(int n)
 {
- if (y < 0)
-	 y = y * -1
-		 return y;
- else
-	 return y;
+
+return (n >= 0 ? n : n * -1);
+
 }
