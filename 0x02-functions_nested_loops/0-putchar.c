@@ -5,7 +5,7 @@
  * Return: always 0 (success)
  */ 
 
-int main()
+int main(void)
 {
 	char strg[] = "_putchar";
 
@@ -14,7 +14,7 @@ int main()
 	while (i < 8)
 	{
 	_putchar(strg[i]);
-            i++;
+		i++;
 	}
 	_putchar('\n');
 
