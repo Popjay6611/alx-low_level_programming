@@ -5,7 +5,7 @@
  * Return: always 0 (success)
  */ 
 
-int main(char strg)
+int main()
 {
 	char strg[] = "_putchar";
 
