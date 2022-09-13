@@ -15,6 +15,5 @@ while (c = "a", c <= "z")
 }
 _putchar('\n');
 
-return (0);
 
 }
