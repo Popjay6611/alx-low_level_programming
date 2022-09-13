@@ -5,18 +5,18 @@
  * Return: always 0 (success)
  */ 
 
-int main(void)
+int main(char strg)
 {
 	char strg[] = "_putchar";
 
-	i = 0;
+	int i = 0;
 
 	while (i < 8)
 	{
 	_putchar(strg[i]);
-            i++
+            i++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 
 return (0);
 }
