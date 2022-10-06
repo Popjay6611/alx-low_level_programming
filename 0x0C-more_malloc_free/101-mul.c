@@ -80,7 +80,7 @@ int get_digit(char c)
 
 	if (digit < 0 || digit > 9)
 	{
-		printf("Error\n");
+		_putchar("Error\n");
 		exit(98);
 	}
 
@@ -122,7 +122,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	{
 		if (*mult < '0' || *mult > '9')
 		{
-			printf("Error\n");
+			_putchar("Error\n");
 			exit(98);
 		}
 
@@ -194,7 +194,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		_putchar("Error\n");
 		exit(98);
 	}
 
@@ -204,7 +204,7 @@ int main(int argc, char *argv[])
 		argv[2] = iterate_zeroes(argv[2]);
 	if (*(argv[1]) == '\0' || *(argv[2]) == '\0')
 	{
-		printf("0\n");
+		_putchar("0\n");
 		return (0);
 	}
 
@@ -221,9 +221,9 @@ int main(int argc, char *argv[])
 	for (index = 0; final_prod[index]; index++)
 	{
 		if (final_prod[index] != 'x')
-			putchar(final_prod[index]);
+			_putchar(final_prod[index]);
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	free(next_prod);
 	free(final_prod);
