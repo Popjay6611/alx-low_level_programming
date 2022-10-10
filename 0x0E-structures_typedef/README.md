@@ -1,1 +1,1 @@
-oo
+structure and type diffrent
