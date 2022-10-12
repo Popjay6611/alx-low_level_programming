@@ -1,1 +1,1 @@
-oo
+functions and ponterss
